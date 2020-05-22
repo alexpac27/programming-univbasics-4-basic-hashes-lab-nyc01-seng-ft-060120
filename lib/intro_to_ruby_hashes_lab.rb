@@ -7,6 +7,7 @@ def my_hash
 end
 
 def pioneer
+  hash_1 = {:name => "Grace Hopper"}
   p hash_1[:name] = "Grace Hopper"
 end
 
