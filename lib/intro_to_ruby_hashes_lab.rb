@@ -1,13 +1,13 @@
 def new_hash
-  new_hash = Hash.new
+  p new_hash = Hash.new
 end
 
 def my_hash
-  hash = {:name => "Alex", :age => 31}
+  p hash = {:name => "Alex", :age => 31}
 end
 
 def pioneer
-  hash_1[:name] = "Grace Hopper"
+  p hash_1[:name] = "Grace Hopper"
 end
 
 
